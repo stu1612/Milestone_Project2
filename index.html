@@ -12,15 +12,46 @@
     
 </head>
     <body>
+        
+    <div class="container">    
+        
+        <input type="button" id="button_pop" value="Pop" onclick="showImage();"/>
+        <input type="button" id="button_rock" value="Rock" onclick="showImage();"/>
+    </div> 
     
-   
-
+    <h1>festivals</h1>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col">
+                <h1 id="title_1"></h1>
+                    <p id="text_1"></p>
+                    <img src="" id="img_1"/>
+                <a href="" id="link_1"></a>
+            </div>
+            <div class="col-md-4 col">
+                <h1 id="title_2"></h1>
+                    <p id="text_2"></p>
+                    <img src="" id="img_2"/>
+                <a href="" id="link_2"></a>
+            </div>
+            <div class="col-md-4 col">
+                <h1 id="title"></h1>
+                    <p id="text"></p>
+                    <img src="" id="fest_img"/>
+                <a href="" id="link"></a>
+            </div>
+            
+        </div>
+    </div>
+    
+     
     
     
 
 <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
-<!--<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAqXJRuJFXgJ2HkjgKiSLuj-zFin8MRp04&callback=initMap"></script>  -->
-<script type="text/javascript" src="festivalData.json"></script> 
+<!--</script> async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAqXJRuJFXgJ2HkjgKiSLuj-zFin8MRp04&callback=initMap"></script>  -->
+<script type="text/javascript" src="assets/JS/festivalData.js"></script> 
 <script src="assets/JS/main.js"></script>
 
     </body>

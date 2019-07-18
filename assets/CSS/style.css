@@ -1,0 +1,27 @@
+
+
+/*universal*/
+
+a {
+    display: block;
+}
+
+.col {
+    text-align: center;
+}
+
+#img_1 {
+    width:200px;
+    height:150px;
+    visibility: hidden;
+}
+
+#img_2 {
+    width:200px;
+    height:150px;
+    visibility: hidden;
+}
+
+
+
+
