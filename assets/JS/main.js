@@ -45,7 +45,11 @@ document.getElementById('button_pop').addEventListener('click', function() {
 });
 
 
-
+/*for(i=0; i<myData.length; i++) {
+  if(myData[i].Genre === "Rock") {
+    console.log(myData[i].Event);
+  }
+}*/
 
 
 

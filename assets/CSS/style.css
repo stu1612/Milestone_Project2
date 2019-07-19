@@ -1,6 +1,6 @@
 
 
-/*universal*/
+/*----------------------UNIVERSAL------------------*/
 
 a {
     display: block;
@@ -21,6 +21,79 @@ a {
     height:150px;
     visibility: hidden;
 }
+
+.no-gutters {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/*IMAGES BANNER SECTION*/
+
+#img_background img {
+    height: 100%;
+    width:100%;
+}
+
+#img_background {
+    padding: 0;
+    overflow: hidden;
+}
+
+.text_shadow {
+    -webkit-transition: text-shadow 0.2s linear;
+    -moz-transition: text-shadow 0.2s linear;
+    -ms-transition: text-shadow 0.2s linear;
+    -o-transition: text-shadow 0.2s linear;
+    transition: text-shadow 0.2s linear;
+    text-shadow: 0 0 10px red;
+}
+
+
+
+
+
+
+
+
+/*------------------------------INPUT BUTTON SECTION-------------------*/
+
+
+
+input {
+    width:100%;
+    padding: 35px;
+    background-color: #000;
+    color:#fff;
+}
+
+
+
+
+
+
+/*-----------------MEDIA QUERIES--------------------*/
+
+/*IMAGES BANNER SECTION*/
+
+@media screen and (max-width:1200px) {
+    
+    #bottom_row {
+        display:none;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    
+    #middle_row {
+        display:none;
+    }
+}
+
 
 
 
