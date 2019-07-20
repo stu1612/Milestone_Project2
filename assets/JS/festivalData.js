@@ -4,7 +4,7 @@ var data = [
      
     
     { 
-        "Event":"Rock in Rio Festival", 
+        "Event":"Rock in Rio", 
         "URL":"http://rockinrio.com/rio/en", 
         "Image":"https://cdn.escapismmagazine.com/gallery/5379cfd5e0ad0.jpeg",
         "Latitude":"39.564",
@@ -15,8 +15,8 @@ var data = [
     },
     
     { 
-        "Event":"Sziget festival", 
-        "URL":"https://szigetfestival.com/en/", 
+        "Event":"Sziget", 
+        "URL":"https://szigetfestival.com", 
         "Image":"http://djambore.com/wp-content/uploads/2019/02/sziget-cover.jpg",
         "Latitude":"47.33469",
         "Longitude":"19.05002",
@@ -25,9 +25,32 @@ var data = [
         "Genre":"Rock"
     },
     
+    { 
+        "Event":"Download", 
+        "URL":"https://downloadfestival.co.uk/", 
+        "Image":"https://images.kerrangcdn.com/download-23-bands-2019.jpg?auto=compress&fit=crop&w=",
+        "Latitude":"52.896820",
+        "Longitude":"-1.329630",
+        "Place":"Derby",
+        "Country":"UK",
+        "Genre":"Rock"
+    },
+    
+    { 
+        "Event":"Lollaplooza", 
+        "URL":"https://www.lollapaloozade.com/", 
+        "Image":"https://www.lollapaloozade.com/wp-www-lollapaloozade-com/wp/wp-content/uploads/2018/09/lollapaloozaberlin_thumb-62665464.jpg",
+        "Latitude":"52.523430",
+        "Longitude":"13.411440",
+        "Place":"Berlin",
+        "Country":"Germany",
+        "Genre":"Rock"
+    },
+    
+     //Pop section 
     
     {
-        "Event":"Coachella Festival", 
+        "Event":"Coachella", 
         "URL":"https://www.coachella.com/", 
         "Image":"https://cdn1.thr.com/sites/default/files/imagecache/list_landscape_960x541/2019/04/gettyimages-945956642-h_2019.jpg",
         "Latitude":"33.77659",
@@ -37,8 +60,8 @@ var data = [
         "Genre":"pop"
     },
     
-     {
-        "Event":"Isle of Wight Festival", 
+    {
+        "Event":"Isle of Wight", 
         "URL":"https://isleofwightfestival.com/", 
         "Image":"https://www.visitisleofwight.co.uk/imageresizer/?image=%2Fdbimgs%2Fiow-festival-header.jpg&action=PageHeaderSuper",
         "Latitude":"37.00561",
@@ -46,6 +69,74 @@ var data = [
         "Place":"Isle of Wight",
         "Country":"UK",
         "Genre":"Pop"
+    },
+    
+    {
+        "Event":"Summer Sessions", 
+        "URL":"https://www.smmrsessions.com/edinburgh/welcome", 
+        "Image":"https://files.list.co.uk/images/2019/01/31/tom-jones-edinburgh-summer-sessions-ryanjohnstonco-12-LST307033.jpg",
+        "Latitude":"55.964300",
+        "Longitude":"-3.202180",
+        "Place":"Edinburgh",
+        "Country":"UK",
+        "Genre":"Pop"
+    },
+    
+    {
+        "Event":"Rewind", 
+        "URL":"https://south.rewindfestival.com/", 
+        "Image":"https://south.rewindfestival.com/wp-content/uploads/sites/3/2018/09/Rewind-Scotland-2018-FANATIC-SteveTurvey-5795-Web.jpeg",
+        "Latitude":"51.537530",
+        "Longitude":"-0.904640",
+        "Place":"Henley-on-Thames",
+        "Country":"UK",
+        "Genre":"Pop"
+    },
+    
+    //Electronic section
+    
+     {
+        "Event":"Tomorrowland", 
+        "URL":"https://www.tomorrowland.com/global/", 
+        "Image":"https://globaldjmix.com/files/download/tomorrowland_2019.jpg",
+        "Latitude":"51.085990",
+        "Longitude":"4.363520",
+        "Place":"Boom",
+        "Country":"Belguim",
+        "Genre":"Electronic"
+    },
+    
+    {
+        "Event":"Untold", 
+        "URL":"https://www.untold.com/", 
+        "Image":"https://media.resources.festicket.com/image/372x525/center/middle/filters:quality(70)/www/photos/3694-poster.jpg",
+        "Latitude":"46.770920",
+        "Longitude":"23.589920",
+        "Place":"Cluj-Napoca",
+        "Country":"Romania",
+        "Genre":"Electronic"
+    },
+    
+     {
+        "Event":"Medusa", 
+        "URL":"https://www.medusasunbeach.com", 
+        "Image":"https://fever.imgix.net/plan/photo/200a33e4-f47f-11e8-8e90-067dfd978c4d.jpg?auto=compress&auto=format&fm=jpg&w=550&h=550",
+        "Latitude":"39.165190",
+        "Longitude":"-0.255960",
+        "Place":"Cullera",
+        "Country":"Spain",
+        "Genre":"Electronic"
+    },
+    
+    {
+        "Event":"Sonus", 
+        "URL":"https://www.sonus-festival.com/", 
+        "Image":"https://media.resources.festicket.com/image/372x525/center/middle/filters:quality(70)/www/photos/4277-poster.jpg",
+        "Latitude":"44.556780",
+        "Longitude":"14.882550",
+        "Place":"Novalja",
+        "Country":"Croatia",
+        "Genre":"Electronic"
     }
     
 ];  

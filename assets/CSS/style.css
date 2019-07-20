@@ -10,15 +10,10 @@ a {
     text-align: center;
 }
 
-#img_1 {
-    width:200px;
-    height:150px;
-    visibility: hidden;
-}
-
-#img_2 {
-    width:200px;
-    height:150px;
+.circle_img {
+    width:300px;
+    height:300px;
+    border-radius: 50%;
     visibility: hidden;
 }
 
@@ -32,7 +27,7 @@ a {
     padding-right: 0;
 }
 
-/*IMAGES BANNER SECTION*/
+/*--------------------------IMAGES BANNER SECTION------------------*/
 
 #img_background img {
     height: 100%;
@@ -44,13 +39,15 @@ a {
     overflow: hidden;
 }
 
-.text_shadow {
+/*--------------CSS ANIMATIONS & COLOUR DIVS-----------*/
+
+input:hover {
     -webkit-transition: text-shadow 0.2s linear;
     -moz-transition: text-shadow 0.2s linear;
     -ms-transition: text-shadow 0.2s linear;
     -o-transition: text-shadow 0.2s linear;
     transition: text-shadow 0.2s linear;
-    text-shadow: 0 0 10px red;
+    text-shadow: 1px 1px 10px yellow;
 }
 
 
@@ -62,7 +59,13 @@ a {
 
 /*------------------------------INPUT BUTTON SECTION-------------------*/
 
+#button_list {
+    overflow: hidden;
+}
 
+.col_btn {
+    display: flex;
+}
 
 input {
     width:100%;
@@ -71,9 +74,19 @@ input {
     color:#fff;
 }
 
+/*----------------FEST GUIDE------------------------*/
 
+#fest_guide {
+    margin-top: 200px;
+}
 
+.h1_title {
+    margin-bottom: 20px;
+}
 
+.a_link {
+    visibility: hidden;
+}
 
 
 /*-----------------MEDIA QUERIES--------------------*/
@@ -94,7 +107,25 @@ input {
     }
 }
 
+/*INPUT MENU BAR*/
 
+@media screen and (max-width:800px) {
+    
+    .col_btn {
+        display: block;
+    }
+    
+    input {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    
+    input {
+        padding: 15px;
+    }
+}
 
 
 

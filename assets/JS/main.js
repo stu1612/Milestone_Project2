@@ -2,46 +2,50 @@ var myData = data;
 
 
 //function to unhide image after click event
-function showImage(){
+  function showImage(){
         document.getElementById('img_1').style.visibility='visible';
         document.getElementById('img_2').style.visibility='visible';
         document.getElementById('img_3').style.visibility='visible';
         document.getElementById('img_4').style.visibility='visible';
-        
-    }
+  }
+  
+  function showLink(){
+        document.getElementById('link_1').style.visibility='visible';
+        document.getElementById('link_2').style.visibility='visible';
+        document.getElementById('link_3').style.visibility='visible';
+        document.getElementById('link_4').style.visibility='visible';
+  }
 
 
 
 // ROCK - first festival content col
-document.getElementById('button_rock').addEventListener('click', function() {
+  document.getElementById('button_rock').addEventListener('click', function() {
   
   document.getElementById("title_1").innerHTML = myData[0].Event;
   document.getElementById("text_1").innerHTML = myData[0].Place + " " + "," + myData[0].Country;
-  document.getElementById("link_1").innerHTML = myData[0].URL;
+  document.getElementById("link_1").href = myData[0].URL;
   document.getElementById("img_1").src = myData[0].Image;
 
 // ROCK - second festival content col
 
   document.getElementById("title_2").innerHTML = myData[1].Event;
   document.getElementById("text_2").innerHTML = myData[1].Place + " " + "," + myData[1].Country;
-  document.getElementById("link_2").innerHTML = myData[1].URL;
+  document.getElementById("link_2").href = myData[1].URL;
   document.getElementById("img_2").src = myData[1].Image;
-});
 
-// POP - first festival content col
-document.getElementById('button_pop').addEventListener('click', function() {
+// ROCK - third festival content col
   
-  document.getElementById("title_1").innerHTML = myData[2].Event;
-  document.getElementById("text_1").innerHTML = myData[2].Place + " " + "," + myData[2].Country;
-  document.getElementById("link_1").innerHTML = myData[2].URL;
-  document.getElementById("img_1").src = myData[2].Image;
+  document.getElementById("title_3").innerHTML = myData[2].Event;
+  document.getElementById("text_3").innerHTML = myData[2].Place + " " + "," + myData[2].Country;
+  document.getElementById("link_3").href = myData[2].URL;
+  document.getElementById("img_3").src = myData[2].Image;
 
-// POP - second festival content col
+// ROCK - fourth festival content col
 
-  document.getElementById("title_2").innerHTML = myData[3].Event;
-  document.getElementById("text_2").innerHTML = myData[3].Place + " " + "," + myData[3].Country;
-  document.getElementById("link_2").innerHTML = myData[3].URL;
-  document.getElementById("img_2").src = myData[3].Image;
+  document.getElementById("title_4").innerHTML = myData[3].Event;
+  document.getElementById("text_4").innerHTML = myData[3].Place + " " + "," + myData[3].Country;
+  document.getElementById("link_4").href = myData[3].URL;
+  document.getElementById("img_4").src = myData[3].Image;
 });
 
 
@@ -53,7 +57,13 @@ document.getElementById('button_pop').addEventListener('click', function() {
 
 
 
+//JQUERY scripts
 
+$(document).ready(function() {
+  
+  
+  
+});
 
  
  
