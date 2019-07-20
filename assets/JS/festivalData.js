@@ -6,7 +6,7 @@ var data = [
     { 
         "Event":"Rock in Rio", 
         "URL":"http://rockinrio.com/rio/en", 
-        "Image":"https://cdn.escapismmagazine.com/gallery/5379cfd5e0ad0.jpeg",
+        "Image":"https://asemananews.com.br/wp-content/uploads/2019/03/rock-in-rio-2017-luck-veloso-logo-palco-sunset-1-720x430.jpg",
         "Latitude":"39.564",
         "Longitude":"-87.23724",
         "Place":"Rio de Janeiro",
@@ -52,7 +52,7 @@ var data = [
     {
         "Event":"Coachella", 
         "URL":"https://www.coachella.com/", 
-        "Image":"https://cdn1.thr.com/sites/default/files/imagecache/list_landscape_960x541/2019/04/gettyimages-945956642-h_2019.jpg",
+        "Image":"https://consequenceofsound.net/wp-content/uploads/2019/04/Coachella-2019-YouTube-STreaming-Schedule-e1555079789554.png?w=800",
         "Latitude":"33.77659",
         "Longitude":"-116.2894",
         "Place":"Indio CA",
@@ -63,7 +63,7 @@ var data = [
     {
         "Event":"Isle of Wight", 
         "URL":"https://isleofwightfestival.com/", 
-        "Image":"https://www.visitisleofwight.co.uk/imageresizer/?image=%2Fdbimgs%2Fiow-festival-header.jpg&action=PageHeaderSuper",
+        "Image":"https://i.ytimg.com/vi/7w0yV0BvnpM/maxresdefault.jpg",
         "Latitude":"37.00561",
         "Longitude":"-76.66292",
         "Place":"Isle of Wight",
