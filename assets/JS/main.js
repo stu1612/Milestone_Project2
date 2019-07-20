@@ -1,7 +1,7 @@
 var myData = data;
 
 
-//function to unhide image after click event
+  //function to unhide image after click event
   function showImage(){
         document.getElementById('img_1').style.visibility='visible';
         document.getElementById('img_2').style.visibility='visible';
@@ -9,6 +9,7 @@ var myData = data;
         document.getElementById('img_4').style.visibility='visible';
   }
   
+  //function to unhide link after click event
   function showLink(){
         document.getElementById('link_1').style.visibility='visible';
         document.getElementById('link_2').style.visibility='visible';
@@ -93,20 +94,6 @@ var myData = data;
 });
 
 
-
-
-
-
-
-
-/*for(i=0; i<myData.length; i++) {
-  if(myData[i].Genre === "Rock") {
-    console.log(myData[i].Event);
-  }
-}*/
-
-
-
 //JQUERY scripts
 
 $(document).ready(function() {
@@ -117,6 +104,8 @@ $(document).ready(function() {
       .fadeOut(4000, function() {
       });
   
+  
+  //music menu genre mouse hover effects
     $('input').mouseenter(function() {
       $(this).fadeTo(1000,0.5);
     });
@@ -129,21 +118,24 @@ $(document).ready(function() {
       $(this).fadeTo(1000,1);
     });
     
+   // title glow heading 
     var glow = $('h1');
     setInterval(function() {
       glow.toggleClass('glow');
-    }, 1000);
+    }, 2000);
     
   
 });
 
+
+// end of JQuery
  
  
  
  
- // map section ------------------------------
+ // Google maps section 
  
- /*function initMap() {
+ function initMap() {
 
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 3,
@@ -169,13 +161,22 @@ $(document).ready(function() {
             {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
       }
       var locations = [
-        {lat: -31.563910, lng: 147.154312},
-        {lat: -33.718234, lng: 150.363181},
-        {lat: -33.727111, lng: 150.371124},
-        {lat: -33.848588, lng: 151.209834},
-        {lat: -33.851702, lng: 151.216968}
-        
-      ];*/
+        {lat: 39.564, lng: -87.23724},
+        {lat: 47.33469, lng: 19.05002},
+        {lat: 52.896820, lng: -1.329630},
+        {lat: 52.523430, lng: 13.411440},
+        {lat: 33.77659, lng: -116.2894},
+        {lat: 37.00561, lng: -76.66292},
+        {lat: 55.964300, lng: -3.202180},
+        {lat: 51.537530, lng: -0.904640},
+        {lat: 51.085990, lng: 4.363520},
+        {lat: 46.770920, lng: 23.589920},
+        {lat: 39.165190, lng: -0.255960},
+        {lat: 44.556780, lng: 14.882550}
+       
+      ];
+ 
+       
       
 // end of map section
 
