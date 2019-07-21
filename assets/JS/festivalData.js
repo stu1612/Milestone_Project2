@@ -96,7 +96,7 @@ var data = [
     //Electronic section
     
      {
-        "Event":"Tomorrowland", 
+        "Event":"Tomorrow Land", 
         "URL":"https://www.tomorrowland.com/global/", 
         "Image":"https://globaldjmix.com/files/download/tomorrowland_2019.jpg",
         "Latitude":"51.085990",

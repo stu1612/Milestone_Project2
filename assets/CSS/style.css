@@ -50,6 +50,7 @@ i {
 }
 
 
+
 /*--------------------------IMAGES BANNER SECTION------------------*/
 
 #img_background img {
@@ -85,7 +86,7 @@ h1 {
     -ms-transition: text-shadow 1s linear;
     -o-transition: text-shadow 1s linear;
     transition: text-shadow 1s linear;
-    font-size: 13rem;
+    font-size: 10rem;
     padding: 40px;
     font-weight: 900;
     margin: auto;
@@ -126,7 +127,7 @@ input {
 #clear {
     display: none;
     margin: auto;
-    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 /*----------------FEST GUIDE------------------------*/
@@ -139,7 +140,7 @@ input {
 .h2_title {
     margin-bottom: 20px;
     font-weight:100;
-    font-size:5rem;
+    font-size:3rem;
 }
 
 .a_link {
@@ -166,13 +167,14 @@ input {
     font-weight: 300;
     font-size:4rem;
     cursor:pointer;
+    padding: 40px 0;
 }
 
 #map_info_text {
     display:none;
     text-align:center;
     font-weight: 300;
-    font-size:3rem;
+    font-size:2rem;
     margin-bottom:20px;
 }
 
@@ -183,6 +185,10 @@ input {
     padding: 10px;
 }
 
+
+
+
+
 /*-----------------MEDIA QUERIES--------------------*/
 
 /*IMAGES BANNER SECTION*/
@@ -192,12 +198,20 @@ input {
     #bottom_row {
         display: none;
     }
+    
+    h1 {
+        font-size: 8rem;
+    }
 }
 
 @media screen and (max-width:1000px) {
 
     #middle_row {
         display: none;
+    }
+    
+    h1 {
+        font-size: 5rem;
     }
 }
 
@@ -219,9 +233,10 @@ input {
         padding: 10px;
     }
     
-    .h2_title {
-        font-size:4rem;
+    input {
+        font-size: 1.5rem;
     }
+    
     
     .helper_text {
         font-size:1.2rem;
@@ -258,5 +273,22 @@ input {
 
     #fest_guide {
         margin-top: 20px;
+    }
+}
+
+
+/*MAPS*/
+
+@media screen and (max-width:1200px) {
+    
+    #map_info {
+        display: none;
+    }
+    
+    #map_info_text {
+        display: block;
+        font-size: 1rem;
+        padding-top: 40px;
+        padding-bottom:20px;
     }
 }
