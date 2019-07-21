@@ -48,11 +48,6 @@ i {
   padding: 3px;
 }
 
-.arrow {
-  transform: rotate(-135deg);
-  -webkit-transform: rotate(-135deg);
-}
-
 
 /*--------------------------IMAGES BANNER SECTION------------------*/
 
@@ -99,6 +94,14 @@ h1 {
     text-shadow: 0 0 20px yellow;
 }
 
+.arrow {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+   -moz-transform: rotate(-135deg);
+    -ms-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
+}
+
 
 /*------------------------------INPUT BUTTON SECTION-------------------*/
 
@@ -121,6 +124,7 @@ input {
 
 #fest_guide {
     margin-top: 100px;
+    display:none;
 }
 
 .h2_title {
@@ -142,7 +146,7 @@ input {
 /*----------------GOOGLE MAPS------------------------*/
 
 #map {
-        height: 400px;  /* The height is 400 pixels */
+        height: 400px; 
         width:100%;
        }
 

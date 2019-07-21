@@ -138,8 +138,8 @@ $(document).ready(function() {
  function initMap() {
 
         var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 3,
-          center: {lat: -28.024, lng: 140.887}
+          zoom: 2,
+          center: {lat: 17.570692, lng: -3.996166}
         });
 
         // Create an array of alphabetical characters used to label the markers.
@@ -161,7 +161,7 @@ $(document).ready(function() {
             {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
       }
       var locations = [
-        {lat: 39.564, lng: -87.23724},
+        {lat: -22.901450, lng: -43.178920},
         {lat: 47.33469, lng: 19.05002},
         {lat: 52.896820, lng: -1.329630},
         {lat: 52.523430, lng: 13.411440},
