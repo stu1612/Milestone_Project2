@@ -4,18 +4,19 @@ body {
 
 }
 
-html, body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-      }
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
 
 /*----------------------UNIVERSAL------------------*/
 
 a {
     display: block;
     text-decoration: none!important;
-    color:#000;
+    color: #000;
     margin-top: 20px;
     margin-bottom: 50px;
 }
@@ -25,8 +26,8 @@ a {
 }
 
 .circle_img {
-    width:300px;
-    height:300px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     visibility: hidden;
 }
@@ -42,10 +43,10 @@ a {
 }
 
 i {
-  border: solid grey;
-  border-width: 0 3px 3px 0;
-  display: inline-block;
-  padding: 3px;
+    border: solid grey;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
 }
 
 
@@ -53,7 +54,7 @@ i {
 
 #img_background img {
     height: 100%;
-    width:100%;
+    width: 100%;
 }
 
 #img_background {
@@ -62,12 +63,12 @@ i {
 }
 
 .brand_title {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: rgba(0, 0, 0, 0.6);
-  color: rgba(255, 115, 0 ,1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    color: rgba(255, 115, 0, 1);
 }
 
 /*--------------CSS ANIMATIONS & COLOUR DIVS-----------*/
@@ -84,8 +85,8 @@ h1 {
     -ms-transition: text-shadow 1s linear;
     -o-transition: text-shadow 1s linear;
     transition: text-shadow 1s linear;
-    font-size: 10rem;
-    padding: 30px;
+    font-size: 13rem;
+    padding: 40px;
     font-weight: 900;
     margin: auto;
 }
@@ -95,9 +96,9 @@ h1 {
 }
 
 .arrow {
-  transform: rotate(-135deg);
-  -webkit-transform: rotate(-135deg);
-   -moz-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
     -ms-transform: rotate(-135deg);
     -o-transform: rotate(-135deg);
 }
@@ -114,27 +115,29 @@ h1 {
 }
 
 input {
-    width:100%;
+    width: 100%;
     padding: 35px;
     background-color: #000;
-    color:#fff;
+    color: #fff;
 }
 
 #clear {
-    display:none;
-    margin:auto;
-    margin-bottom:20px;
+    display: none;
+    margin: auto;
+    margin-bottom: 20px;
 }
 
 /*----------------FEST GUIDE------------------------*/
 
 #fest_guide {
     margin-top: 100px;
-    display:none;
+    display: none;
 }
 
 .h2_title {
     margin-bottom: 20px;
+    font-weight:100;
+    font-size:5rem;
 }
 
 .a_link {
@@ -152,62 +155,80 @@ input {
 /*----------------GOOGLE MAPS------------------------*/
 
 #map {
-        height: 400px; 
-        width:100%;
-       }
+    height: 400px;
+    width: 100%;
+}
+
+/*----------------FOOTER-----------------------------*/
+
+.text-center {
+    padding: 10px;
+}
 
 /*-----------------MEDIA QUERIES--------------------*/
 
 /*IMAGES BANNER SECTION*/
 
 @media screen and (max-width:1200px) {
-    
+
     #bottom_row {
-        display:none;
+        display: none;
     }
 }
 
 @media screen and (max-width:1000px) {
-    
+
     #middle_row {
-        display:none;
+        display: none;
     }
 }
 
 @media screen and (max-width:768px) {
-    
+
     .brand_title {
-        top:25%;
+        top: 25%;
     }
 }
 
 @media screen and (max-width:500px) {
-    
+
     .brand_title {
-        top:20%;
+        top: 20%;
     }
-    
+
     h1 {
         font-size: 3rem;
-        padding:10px;
+        padding: 10px;
+    }
+    
+    .h2_title {
+        font-size:4rem;
+    }
+    
+    .helper_text {
+        font-size:1.2rem;
+    }
+    
+    #clear {
+        font-size:1.2rem;
     }
 }
 
 /*INPUT MENU BAR*/
 
 @media screen and (max-width:800px) {
-    
+
     .col_btn {
         display: block;
     }
-    
+
     input {
         padding: 20px;
     }
 }
 
 @media screen and (max-width:500px) {
-    
+
     input {
         padding: 15px;
     }
@@ -216,8 +237,8 @@ input {
 /*FEST GUIDE*/
 
 @media screen and (max-width:500px) {
-    
+
     #fest_guide {
-        margin-top: 50px;
+        margin-top: 20px;
     }
 }

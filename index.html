@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>my:Festival</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
@@ -13,113 +13,124 @@
     
 </head>
     <body>
-        
-    <div class="container-fluid" id="img_background">
-        <div class="row">
-            <div class="col-xs-6 col-lg-3 no-gutters">
-                <img src="./assets/images/image12.jpg" alt="image of music festival/dancing/bands">
+     
+    <section="image_banner">
+        <div class="container-fluid" id="img_background">
+            <div class="row">
+                <div class="col-xs-6 col-lg-3 no-gutters">
+                    <img src="./assets/images/image12.jpg" alt="image of music festival/dancing/bands">
+                </div>
+                <div class="col-xs-6 col-lg-3 no-gutters">
+                    <img src="./assets/images/image8.jpg" alt="image of music festival/dancing/bands">
+                </div>
+                <div class="col-xs-6 col-lg-3 no-gutters">
+                    <img src="./assets/images/image13.jpg" alt="image of music festival/dancing/bands">
+                </div>
+                <div class="col-xs-6 col-lg-3 no-gutters">
+                    <img src="./assets/images/image4.jpg" alt="image of music festival/dancing/bands">
+                </div>
             </div>
-            <div class="col-xs-6 col-lg-3 no-gutters">
-                <img src="./assets/images/image8.jpg" alt="image of music festival/dancing/bands">
+            <div class="row" id="middle_row">
+                <div class="col-md-6 col-lg-3 no-gutters">
+                    <img src="./assets/images/image5.jpg" alt="image of music festival/dancing/bands">
+                </div>
+                <div class="col-md-6 col-lg-3 no-gutters">
+                    <img src="./assets/images/image2.jpg" alt="image of music festival/dancing/bands">
+                </div>
+                <div class="col-md-6 col-lg-3 no-gutters">
+                    <img src="./assets/images/image3.jpg" alt="image of music festival/dancing/bands">
+                </div>
+                <div class="col-md-6 col-lg-3 no-gutters">
+                    <img src="./assets/images/image7.jpg" alt="image of music festival/dancing/bands">
+                </div>
             </div>
-            <div class="col-xs-6 col-lg-3 no-gutters">
-                <img src="./assets/images/image13.jpg" alt="image of music festival/dancing/bands">
+            <div class="row" id="bottom_row">
+                <div class="col-lg-3 no-gutters">
+                    <img src="./assets/images/image9.jpg" alt="image of music festival/dancing/bands">
+                </div>
+                <div class="col-lg-3 no-gutters">
+                    <img src="./assets/images/image10.jpg" alt="image of music festival/dancing/bands">
+                </div>
+                <div class="col-lg-3 no-gutters">
+                    <img src="./assets/images/image11.jpg" alt="image of music festival/dancing/bands">
+                </div>
+                <div class="col-lg-3 no-gutters">
+                    <img src="./assets/images/image1.jpg" alt="image of music festival/dancing/bands">
+                </div>
             </div>
-            <div class="col-xs-6 col-lg-3 no-gutters">
-                <img src="./assets/images/image4.jpg" alt="image of music festival/dancing/bands">
+            
+            <div class="brand_title">
+                <h1>my:Festival</h1>
             </div>
+            
         </div>
-        <div class="row" id="middle_row">
-            <div class="col-md-6 col-lg-3 no-gutters">
-                <img src="./assets/images/image5.jpg" alt="image of music festival/dancing/bands">
-            </div>
-            <div class="col-md-6 col-lg-3 no-gutters">
-                <img src="./assets/images/image2.jpg" alt="image of music festival/dancing/bands">
-            </div>
-            <div class="col-md-6 col-lg-3 no-gutters">
-                <img src="./assets/images/image3.jpg" alt="image of music festival/dancing/bands">
-            </div>
-            <div class="col-md-6 col-lg-3 no-gutters">
-                <img src="./assets/images/image7.jpg" alt="image of music festival/dancing/bands">
-            </div>
-        </div>
-         <div class="row" id="bottom_row">
-            <div class="col-lg-3 no-gutters">
-                <img src="./assets/images/image9.jpg" alt="image of music festival/dancing/bands">
-            </div>
-            <div class="col-lg-3 no-gutters">
-                <img src="./assets/images/image10.jpg" alt="image of music festival/dancing/bands">
-            </div>
-            <div class="col-lg-3 no-gutters">
-                <img src="./assets/images/image11.jpg" alt="image of music festival/dancing/bands">
-            </div>
-            <div class="col-lg-3 no-gutters">
-                <img src="./assets/images/image1.jpg" alt="image of music festival/dancing/bands">
-            </div>
-        </div>
-        <div class="brand_title">
-            <h1>my:Festival</h1>
-        </div>
-    </div> 
+    </section> 
     
-     <div class="container-fluid" id="button_list">
-        <div class="row">
-            <div class="col-12 col_btn">
-                <input type="button" id="button_pop" value="Pop" onclick="showImage();showLink()"/>
-                <input type="button" id="button_rock" value="Rock" onclick="showImage();showLink()"/>
-                <input type="button" id="button_electronic" value="Electronic" onclick="showImage();showLink()"/>
+    <nav>
+        <div class="container-fluid" id="button_list">
+            <div class="row">
+                <div class="col-12 col_btn">
+                    <input type="button" id="button_pop" value="Pop" onclick="showImage();showLink()" />
+                    <input type="button" id="button_rock" value="Rock" onclick="showImage();showLink()" />
+                    <input type="button" id="button_electronic" value="Electronic" onclick="showImage();showLink()" />
+                </div>
             </div>
         </div>
-    </div>
+    </nav>
     
-    <div class="container" id="search_helper">
-        <i class="arrow"></i>
-        <h3 class="helper_text">search upcoming festivals you cannot miss..</h3>
-        <button id="clear">Clear Search</button>
-    </div>
-    
-    
-    <section>
-    <div class="container" id="fest_guide">
-        <div class="row">
-            <div class="col-md-6 col">
-                <h2 class="h2_title" id="title_1"></h1>
-                    <p class="p_text" id="text_1"></p>
-                    <img src="" class="circle_img" id="img_1">
-                <a href="" class="a_link" id="link_1" target="_blank">Take me to the website!</a>
-            </div>
-            <div class="col-md-6 col">
-                <h2 class="h2_title" id="title_2"></h1>
-                    <p class="p_text" id="text_2"></p>
-                    <img src="" class="circle_img" id="img_2">
-                <a href="" class="a_link" id="link_2" target="_blank">Take me to the website!</a>
-            </div>
-        </div> 
-        <div class="row">
-            <div class="col-md-6 col">
-                <h2 class="h2_title" id="title_3"></h1>
-                    <p class="p_text" id="text_3"></p>
-                    <img src="" class="circle_img" id="img_3">
-                <a href="" class="a_link" id="link_3" target="_blank">Take me to the website!</a>
-            </div>
-            <div class="col-md-6 col">
-                <h2 class="h2_title" id="title_4"></h1>
-                    <p class="p_text" id="text_4"></p>
-                    <img src="" class="circle_img" id="img_4">
-                <a href="" class="a_link" id="link_4" target="_blank">Take me to the website!</a>
-            </div>
+        <div class="container" id="search_helper">
+            <i class="arrow"></i>
+            <h3 class="helper_text">search upcoming festivals you cannot miss..</h3>
+            <button id="clear">Clear Search</button>
         </div>
-        
-    <!--end of div-->    
-    </div>
-    </section>
     
-    <section>
+    
+    <main>
+        <div class="container" id="fest_guide">
+            <div class="row">
+                <div class="col-md-6 col">
+                    <h2 class="h2_title" id="title_1">
+                        </h2>
+                        <p class="p_text" id="text_1"></p>
+                        <img src="" class="circle_img" id="img_1">
+                        <a href="" class="a_link" id="link_1" target="_blank">Take me to the website!</a>
+                </div>
+                <div class="col-md-6 col">
+                    <h2 class="h2_title" id="title_2">
+                        </h2>
+                        <p class="p_text" id="text_2"></p>
+                        <img src="" class="circle_img" id="img_2">
+                        <a href="" class="a_link" id="link_2" target="_blank">Take me to the website!</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col">
+                    <h2 class="h2_title" id="title_3">
+                        </h2>
+                        <p class="p_text" id="text_3"></p>
+                        <img src="" class="circle_img" id="img_3">
+                        <a href="" class="a_link" id="link_3" target="_blank">Take me to the website!</a>
+                </div>
+                <div class="col-md-6 col">
+                    <h2 class="h2_title" id="title_4">
+                        </h2>
+                        <p class="p_text" id="text_4"></p>
+                        <img src="" class="circle_img" id="img_4">
+                        <a href="" class="a_link" id="link_4" target="_blank">Take me to the website!</a>
+                </div>
+            </div>
+            <!--end of div-->
+        </div>
+    </main>
+    
+    <section="google_maps">
         <div id="map"></div>
     </section>
     
     <footer>
-        &#169; my:Festival
+        <div class="container text-center">
+            &#169; my:Festival 2019
+        </div>
     </footer>
      
     

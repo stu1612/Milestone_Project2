@@ -159,6 +159,8 @@ $(document).ready(function() {
 
         // Create an array of alphabetical characters used to label the markers.
         var labels = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+        
+        labels[4] = 'test';
 
         // Add some markers to the map.
         // Note: The code uses the JavaScript Array.prototype.map() method to
