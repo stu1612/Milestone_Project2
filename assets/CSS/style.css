@@ -120,6 +120,12 @@ input {
     color:#fff;
 }
 
+#clear {
+    display:none;
+    margin:auto;
+    margin-bottom:20px;
+}
+
 /*----------------FEST GUIDE------------------------*/
 
 #fest_guide {

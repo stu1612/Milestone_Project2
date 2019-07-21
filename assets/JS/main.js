@@ -117,16 +117,25 @@ $(document).ready(function() {
       $(this).fadeTo(1000,1);
     });
     
-   // title glow effect
+  // title glow effect
     var glow = $('h1');
     setInterval(function() {
       glow.toggleClass('glow');
     }, 2000);
     
-    //onclick effect will make #fest_guide to display as block 
+  //onclick effect will make #fest_guide to display as block 
     $('.col_btn').on('click', function() {
       $('#fest_guide').css('display','block')
+      $('#clear').css('display','block')
     });
+    
+    
+  //onclick effect will clear search 
+    $('#clear').on('click', function() {
+      $('#fest_guide').css('display', 'none')
+    });
+    
+    
   
 });
 
