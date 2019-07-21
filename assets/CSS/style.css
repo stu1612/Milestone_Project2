@@ -118,7 +118,9 @@ input {
     width: 100%;
     padding: 35px;
     background-color: #000;
-    color: #fff;
+    color: rgba(255, 115, 0, 1);
+    font-size:3rem;
+    font-weight:300;
 }
 
 #clear {
@@ -158,6 +160,22 @@ input {
     height: 400px;
     width: 100%;
 }
+
+#map_info {
+    text-align:center;
+    font-weight: 300;
+    font-size:4rem;
+    cursor:pointer;
+}
+
+#map_info_text {
+    display:none;
+    text-align:center;
+    font-weight: 300;
+    font-size:3rem;
+    margin-bottom:20px;
+}
+
 
 /*----------------FOOTER-----------------------------*/
 

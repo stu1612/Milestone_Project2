@@ -7,8 +7,8 @@ var data = [
         "Event":"Rock in Rio", 
         "URL":"http://rockinrio.com/rio/en", 
         "Image":"https://asemananews.com.br/wp-content/uploads/2019/03/rock-in-rio-2017-luck-veloso-logo-palco-sunset-1-720x430.jpg",
-        "Latitude":"39.564",
-        "Longitude":"-87.23724",
+        "Latitude":"-22.901450",
+        "Longitude":"-43.178920",
         "Place":"Rio de Janeiro",
         "Country":"Brazil",
         "Genre":"Rock"
