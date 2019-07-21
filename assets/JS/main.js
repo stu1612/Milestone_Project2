@@ -98,11 +98,10 @@ var myData = data;
 
 $(document).ready(function() {
     
-    $('#search_helper').fadeIn(4000, function() {
-      })
-      .delay(4000)
-      .fadeOut(4000, function() {
-      });
+  //text info appears to direct user to click buttons  
+    $(document).ready(function() {
+      $('#search_helper').fadeIn(10000);
+    });
   
   
   //music menu genre mouse hover effects
@@ -118,12 +117,16 @@ $(document).ready(function() {
       $(this).fadeTo(1000,1);
     });
     
-   // title glow heading 
+   // title glow effect
     var glow = $('h1');
     setInterval(function() {
       glow.toggleClass('glow');
     }, 2000);
     
+    //onclick effect will make #fest_guide to display as block 
+    $('.col_btn').on('click', function() {
+      $('#fest_guide').css('display','block')
+    });
   
 });
 
@@ -134,6 +137,9 @@ $(document).ready(function() {
  
  
  // Google maps section 
+ 
+ // template taken from Google Map API documentation
+ // lat and lng coordinates changed for user viewing functionality
  
  function initMap() {
 
